@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CutePE.cpp" />
+    <ClCompile Include="PEParser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -131,6 +132,9 @@
       <SubType>
       </SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PEParser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
